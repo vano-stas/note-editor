@@ -1,0 +1,11 @@
+.note-form {
+    width: 500px;
+    align-self: center;
+    margin: 15px;
+}
+
+@media (max-width: 599px) {
+    .note-form {
+        width: 250px;
+    }
+}

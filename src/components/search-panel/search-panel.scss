@@ -1,0 +1,16 @@
+.search-panel {
+    margin-right: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    align-self: flex-end;
+}
+
+.search-input {
+    width: 250px;
+}
+
+@media (max-width: 599px) {
+    .search-input {
+        width: 150px;
+    }
+}

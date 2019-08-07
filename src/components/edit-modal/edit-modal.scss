@@ -1,0 +1,38 @@
+$modal-wd: 400px;
+$modal-hg: 200px;
+
+.edit-modal-wrapper {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.edit-modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: $modal-hg;
+    width: $modal-wd;
+    background: lightseagreen;
+}
+
+.button-close {
+    height: 40px;
+    transform: translate(0px, -0.5*$modal-hg - 0.5*40);
+}
+
+.edit-form {
+    width: 80%;
+    height: 80%;
+}
+
+.edit-input {
+    height: 30%;
+    width: 100%;
+}

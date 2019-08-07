@@ -1,0 +1,19 @@
+.note-list-wrapper {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    justify-content: center;
+    grid-gap: 40px;
+}
+
+@media (min-width: 600px) and (max-width: 850px) {
+    .note-list-wrapper {
+        grid-template-columns: repeat(2, 40%);
+    }
+}
+
+@media (max-width: 599px) {
+    .note-list-wrapper {
+        grid-template-columns: repeat(1, 85%);
+    }
+}
